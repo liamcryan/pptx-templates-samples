@@ -1,0 +1,12 @@
+{"slides": {
+        "1": {"date": "{{ data.date }}"},
+        "2": {
+                "date": "{{ data.date }}",
+                "table": [
+                            [{{data['Region 1']}}, {{data['Region 2']}}]
+                        ],
+                "chart": {
+                            "body": ",Metric\nRegion 1,{{data['Region 1']}}\nRegion 2,{{data['Region 2']}}"
+                        }
+                    }
+    }}
