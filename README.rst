@@ -1,4 +1,6 @@
-To run the examples, please follow the directions below.
+To run the examples, you must have Python 3.6 or higher, then install the pptx-templater package::
+
+    %pip install git+https://github.com/liamcryan/pptx-templater.git
 
 Using pptx-template
 ===================
